@@ -1,7 +1,7 @@
 from discord.ext import commands
 import random
 
-TOKEN = "Nzc4MTY1NTM5MjU2MTM5ODI2.X7OBIg.JWs0s8mvPbDdjGOA266K-_CV2c8"
+TOKEN = ""
 
 client = commands.Bot(command_prefix='/')
 
