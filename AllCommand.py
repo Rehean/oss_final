@@ -3,7 +3,7 @@ import asyncio
 from discord import Member
 from discord.ext import commands
 
-TOKEN = "Nzc4MTY1NTM5MjU2MTM5ODI2.X7OBIg.GuOBhfeZTZfy-2sbxUomgL7mOSM"
+TOKEN = ""
 
 client = discord.Client()
 @client.event
