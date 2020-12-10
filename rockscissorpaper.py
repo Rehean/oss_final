@@ -11,7 +11,7 @@ client = discord.Client()
 @client.event
 
 async def game(message):
-        if message.content.startswith('=게임을 시작하자!'):
+        if message.content.startswith('/게임을 시작하자!'):
                 rsp = ["가위","바위","보"]
                 embed = discord.Embed(title="가위바위보",description="5초내로 (가위/바위/보)를 써주세요!", color=0x00aaaa)
                 channel = message.channel
