@@ -26,6 +26,9 @@ async def on_message(message):
         embed.add_field(name = '/타이머 n', value = 'n만큼 타이머',inline = False)
         embed.add_field(name = '/메뉴', value = '메뉴추천',inline = False)
         embed.add_field(name = '/게임을 시작하자!', value = '봇과 가위바위보',inline = False)
+        embed.add_field(name = "#help" , value = "사용법 안내", inline = False)
+        embed.add_field(name = "#번역 [도착언어] [목표 문장(출발 언어는 자동 감지)]" , value = "Ko - 한국어\nen - 영어\nja - 일본어\nzh-CN - 중국어 간체\nzh-TW - 중국어 번체\nvi - 베트남어\nde - 독일어\nth - 태국어\nru - 러시아어\nfr - 프랑스어\nit - 이탈리아어", inline = False)
+
         
         await message.channel.send(channel,embed=embed)       
 client.run(TOKEN)
